@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Stick - J-Prop Shop</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            max-width: 1200px;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 80px;
+            margin-right: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #B388EB;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            -webkit-text-stroke: 1px #fff;
+        }
+        nav {
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #B388EB;
+        }
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .content {
+        display: flex;
+        gap: 20px;
+      }
+      .content img {
+        max-width: 100%;
+      }
+      .image {
+        position: relative;
+        width: 100%;
+        padding-top: 100%; /* 1:1 Aspect Ratio */
+        overflow: hidden;
+      }
+      .image-box {
+        box-shadow: 0 4px 9px rgba(0, 0, 0, 0.4);
+        padding: 33px 24px 0px 24px;
+        background-color: #fff;
+        height: 277px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 470px;
+      }
+      .image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .footer {
+            background-color: #d8bfd8;
+            color: #333;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            width: 100%;
+            border-top: 1px solid #333;
+        }
+        .footy {
+            font-size: 15px;
+        }
+
+     
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+          <div class="logo-container">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHF6YdNU26cXn5G736Cs7JWj1n4ePyJoxfxg&s" alt="J-Prop Shop Logo">
+              <h1>The J-Prop Shop</h1>
+          </div>
+          <nav>
+              <a href="index.html">Home</a>
+              <a href="basic-stick.html">Basic Stick</a>
+          </nav>
+      </div>
+  </header>
+
+    <div class="container">
+      <h2>The Basic Stick</h2>
+      <div class="content">
+        <div>
+          <p>
+            The Basic Stick is the perfect stick for beginners. The stick
+            rotates slowly to provide extra time for performing stick tricks,
+            but is flashy enough to impress your friends. Enjoy the following:
+          </p>
+          <ul>
+            <p>
+              <strong>Patented Dura-Coat®</strong> finish ensures sticks can
+              withstand all weather conditions. More durable than other sticks,
+              these props will keep looking like new for as long as you own
+              them.
+            </p>
+            <p>
+              <strong>Enhanced stick flexibility</strong> provides more bounce,
+              allowing for better tricks. A soft rubber core adds a whole new
+              element to the sticking experience that you have to feel to
+              believe!
+            </p>
+            <p>
+              <strong>Full customization</strong> will give you the chance to
+              own a pair of sticks unlike any others out there. I make exactly
+              what you want, with your colors and your designs.
+            </p>
+            <p>
+              <strong>A personal touch</strong> through both my customization
+              options and hand-crafted designs.
+            </p>
+          </ul>
+          <h3>Specifications</h3>
+          <ul>
+            <li>
+              Main Stick
+              <ul>
+                <li>Weight: 7 oz.</li>
+                <li>Length: 24 inches</li>
+                <li>Tape: Dura-Coat® finish with laser-style color choices</li>
+              </ul>
+            </li>
+            <br />
+            <li>
+              Handle Sticks (one pair)
+              <ul>
+                <li>Weight: 2 oz.</li>
+                <li>Length: 18 inches</li>
+                <li>Tape: Soft ivory tape with rubber core</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="image-box">
+          <div class="image">
+            <img
+              src="https://media.assettype.com/TNIE%2Fimport%2F2016%2F12%2F17%2Foriginal%2Fmagic.png?w=480&auto=format%2Ccompress&fit=max"
+              alt="Our Basic Stick"
+            />
+          </div>
+          <div class="text-box">
+            <p style="text-align: center"><em>Our Basic Stick</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="footy">THE J-PROP SHOP • 541 WEST HIGHLAND DRIVE • AUBURN, ME 04210 • (207) 555 - 9001</p>
+  </div>
+    </div>
+  </body>
+</html>
